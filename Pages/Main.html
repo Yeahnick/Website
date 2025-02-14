@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Yanick Vigneault</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/Styles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/Carousel.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/Form.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/Media.css'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <script src='/functions.js'></script>
+    
+    <link rel="icon" type="image/png" href="/Sources/message-programming.png"/>  
+</head>
+
+<body>
+    <!--div style="position: fixed;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: red;z-index: 9999;pointer-events: none;"></div-->
+        <div class="background_img">
+        </div>     
+    </div>
+    <nav class="navbar">
+        <div class="name">
+           Yanick Vigneault
+        </div>
+        <div class="top_pill">
+            <a class="pages"href="#/">About Me</a>
+            <a class="pages" href="#/">My Skills</a>
+            <a class="pages" href="#Projects">Projects</a>
+        </div>
+        <!-- <label class="theme_pill">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+        </label> -->
+        <div class="contact_pill">
+            <a href="#email_form">Contact Me</a>
+        </div>
+            
+    </nav>
+    <div class="header">
+        <p class="message_code"></p>
+        <p class="font_header">Hi,<br class="br">I'M YANICK </p>
+        <p class="font_subHead">VIDEO GAME DEVELOPER <span style="color: gray;">/</span> SOFTWARE PROGRAMMER<br><i class="note">Fr/Eng</i></p>
+        <p class="font_Quote">“Where imagination becomes reality and players embark on journeys we've woven in 
+            <span style="color: plum;">lines</span> of 
+            <span style="color: plum;">logic</span> and 
+            <span style="color:lightsalmon">pixels</span> of 
+            <span style="color: lightsalmon">passion</span>."<br><i class="note">-chatgpt</i></p>
+       
+    </div>
+    <div style="display:flex; justify-content: center;">
+        <button class="button_down" onclick="scrolldown()"><i class="arrow"></i></button>
+    </div>
+    <div style="display: flex; flex-direction: row; justify-content: center;">
+        <img src="/Sources/folder.png" style="height: 60px; width: auto; padding-right: 20px; align-self: center;">
+        <p class="font_skills" id="Projects">MY WORK</p>
+    </div>
+    <div class="carousel_container" >      
+        <div class="carousel_box" onclick="location.href = './SoulHarbinger.html'">
+            <img class="carousel_img" src="/SourcesWeb/Soul/UnityGame1.PNG">
+            <p class="carousel_title">Soul Harbinger</p>
+            <p class="carousel_desc">An adventure RPG following a necromancer cursed by his own creation.</p>
+            <div class="carousel_icon_container">
+                <img class="carousel_icons" src="/Sources/unitylogo.png">
+                <img class="carousel_icons" src="/Sources/C.png">
+                <img class="carousel_icons" src="/Sources/blender.png">
+                <img class="carousel_icons" src="/Sources/gimp.png">
+            </div>  
+        </div>
+        <div class="carousel_box">
+            <img class="carousel_img" src="/SourcesWeb/website.PNG">
+            <p class="carousel_title">Web Portfolio</p>
+            <p class="carousel_desc">Developed a website showcasing my path and projects throughout the years.</p>
+            <div class="carousel_icon_container">
+                <img class="carousel_icons" src="/Sources/hcj.png">
+            </div>
+        </div>
+        <div class="carousel_box">
+            <img class="carousel_img" src="/SourcesWeb/UnityGame2.PNG">
+            <p class="carousel_title">Scuffed Dodgeball</p>
+            <p class="carousel_desc">My first dive into Multliplayer Networking Behaviour.</p>
+            <div class="carousel_icon_container">
+                <img class="carousel_icons" src="/Sources/unitylogo.png">
+                <img class="carousel_icons" src="/Sources/C.png">
+            </div>
+        </div>
+
+        <div class="carousel_box" onclick="location.href = './discord.html'">
+            <img class="carousel_img" src="/SourcesWeb/zombiecraft/botchat.PNG">
+            <p class="carousel_title">Discord Bot</p>
+            <p class="carousel_desc">Developed a Database system and Discord Bot to link with Minecraft</p>
+            <div class="carousel_icon_container">
+                <img class="carousel_icons" src="/Sources/kotlin.png">
+                <img class="carousel_icons" src="/Sources/discord.png">
+                <img class="carousel_icons" src="/Sources/spigot.png">
+                <img class="carousel_icons" src="/Sources/sql.png">
+            </div>
+        </div>
+        <div class="carousel_box" onclick="location.href = './Slot.html'">
+            <img class="carousel_img" src="/SourcesWeb/Slot/slotmachine.PNG">
+            <p class="carousel_title">Slot Machine</p>
+            <p class="carousel_desc">School project with Android Studio. A functional and adicting gambling machine!</p>
+            <div class="carousel_icon_container">
+                <img class="carousel_icons" src="/Sources/kotlin.png">
+                <img class="carousel_icons" src="/Sources/android studio.png">
+            </div>
+        </div>
+        <div class="carousel_box" onclick="location.href = './Waw.html'">
+            <img class="carousel_img" src="/SourcesWeb/WaW/Zombies.jpg">
+            <p class="carousel_title">Zombies Map</p>
+            <p class="carousel_desc">Used WaW's Radiant mod tool to create my first Zombie map.</p>
+            <div class="carousel_icon_container">
+                <img class="carousel_icons" src="/Sources/waw.png">
+            </div>
+        </div>
+        <div class="carousel_box" onclick="location.href = './CSGO.html'">
+            <img class="carousel_img" src="/SourcesWeb/CSGO/SSRush2.PNG">
+            <p class="carousel_title">CSGO Map</p>
+            <p class="carousel_desc">Used Source's Hammer SDK tool to create some custom maps.</p>
+            <div class="carousel_icon_container">
+                <img class="carousel_icons" src="/Sources/csgo.png">
+                <img class="carousel_icons" src="/Sources/Hammer_splash.png">
+            </div>
+        </div>
+    </div>
+    
+    <div style="display: flex; flex-direction: row; justify-content: center;">
+        <img src="/Sources/gear.png" style="height: 60px; width: auto; padding-right: 20px; align-self: center;">
+        <p class="font_skills" id="Skills">SKILLS</p>
+    </div>
+  
+    <div class="skill_container">
+        <div class="skill_items">
+            <img class="skill_icon_unity" src="/Sources/unity.png" >
+        </div>
+        <div class="skill_items">
+            <img class="skill_icon_kotlin" src="/Sources/kotlin.png">
+        </div>
+        <div class="skill_items"> 
+            <img class="skill_icon_java" src="/Sources/java.png" >
+        </div>
+        <div class="skill_items">
+            <img class="skill_icon_html" src="/Sources/hcj.png">
+        </div>
+    </div>
+    
+    <form action="Email_Form.php" method="post">
+        <div class="form_container" id="email_form">
+            <p class="form_title">LET'S TALK!</p>
+            <input type="text" id="fname" name="fname" placeholder="Enter your name or company">
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <textarea type="text" id="text" name="text" placeholder="Write your message here..."></textarea>
+            <button type="submit" class="form_send" id="email_send" onclick="sendemail()" href="#/">Send</button>
+            <div class="form_social_container">
+                <div><a href="https://www.linkedin.com/in/yanick-vigneault-628aa9237/" target="_blank">
+                    <img class="form_icon" src="/Sources/link.png" >
+                </a>                   
+                </div><div><a href="https://github.com/Yeahnick" target="_blank">
+                    <img class="form_icon" src="/Sources/github.png">
+                </a>
+                    
+                </div><div ><a href="https://www.instagram.com/yeahnick_._" target="_blank">
+                    <img class="form_icon" src="/Sources/instagram.png" >
+                </a>              
+            </div>
+        </div>
+    </form>
+    <footer>
+        
+    </footer>
+</body>
+
+</html>

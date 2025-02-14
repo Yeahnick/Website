@@ -1,0 +1,174 @@
+@media only screen and (max-width: 1280px) {
+ 
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        position:absolute;
+        width: 90%;
+        top: 20px;
+        height: 150px;
+        border-radius: 70px;
+        border: none;
+        margin-left: 5%;
+        background: none;
+    }
+    .button_down{
+        display: none;
+    }
+    .header{
+        display: none;
+       
+    }
+    
+    .background_img{
+       display: none;
+    }
+    .name{ 
+        display: none;
+    
+    }
+    .contact_pill{
+        display: none;
+    }
+    .top_pill{
+        display: flex;
+        justify-content: space-evenly;
+      
+        margin-top: 15px;
+        width: 100%;
+        height: 60px;
+        border-radius: 40px;
+        
+        background: rgba(217,217,217,.2);
+        color: white;
+        font-size: 20px;
+    }
+
+    .theme_pill{
+        display: none;
+    }
+
+    .message_code{
+       display: none;
+    }
+    .header{
+        position:inherit;
+        display: flex;
+        width: auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 35%;
+        text-align: center;
+        height: 10%;
+    }
+    .br{
+        display: none;
+    }
+    .font_header{
+        width: auto;
+        font-size: 36px;
+    }
+    .font_subHead{
+        width: auto;
+    }
+    .font_Quote{
+        width: auto;
+    }
+    .skill_container{
+        row-gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5%;  
+        padding-right: 5%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0;
+        background: rgba(50,61,72,0.6);
+    }
+    .skill_icon_unity{
+        width: auto;
+        height: 100px;
+    }
+    .skill_icon_kotlin{
+        width: auto;
+        height: 60px;
+    }
+    .skill_icon_java{
+        width: auto;
+        height: 60px;
+    }
+    .skill_icon_html{
+        width: auto;
+        height: 60px;
+    }
+    .font_skills{
+        font-size: 36px;
+    }
+    .form_title{
+        font-size: 36px;
+    }
+    .form_container{
+        width: auto;
+    }
+    #fname{
+        width: 80%;
+        
+    }
+    #email{
+       width: 80%;
+        
+    }
+    #text{
+        width: 70%;
+    }
+    .form_send{
+    
+        width: 80%;
+    }
+    .carousel_container{
+        gap: 50px;
+    }
+    .carousel_box{
+        height: 250px;
+        width: auto;
+
+    }
+    .carousel_img{
+        display: block;
+        min-height: 100px;
+        max-height: 100px;
+        object-fit: fill;
+        border-radius: 14px;
+        overflow: hidden;
+    }.carousel_icons{
+    
+        max-width:  auto;
+        max-height: 20px;
+        margin-bottom: 1%;
+    }
+    .carousel_title{
+        color: #FEFEFF;
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 5%;
+        margin-bottom: 0;
+    }
+    .carousel_desc{
+        width: auto;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        color: #FEFEFF;
+        font-size: 12px;
+        font-weight: 400;
+    
+    }
+    .carousel_icon_container{
+        display: flex;
+        margin-left: 10%;
+        gap: 20px;
+    }
+}
