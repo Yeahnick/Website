@@ -18,6 +18,8 @@ a{
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
     position:absolute;
     width: 90%;
     margin-left: 4%;
@@ -110,16 +112,10 @@ a{
     font-weight: 400;
 }
 .name{  
-    /* Layout */
-    position: relative;
-    top : 25%;
-
-    height: 20px;
-    /* Text */
+    /* Style */
     color: #FEFEFF;
     font-size: 36px;
     font-weight: 600;
-
 }
 .background_img{
     width: 1100px;
@@ -141,7 +137,6 @@ a{
 .top_pill{
     display: flex;
     justify-content: space-around;
-    margin-top: 15px;
     width: 700px;
     height: 60px;
     border-radius: 40px;
@@ -150,104 +145,39 @@ a{
     color: #FEFEFF;
     font-size: 20px;
 }
-.pages{
-    
+.pages{  
     margin-top: 20px;
 }
 .pages:hover{
     color: var(--ACCENT);
 }
 
-
-/* THEME SLIDER */
-.theme_pill input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-.slider {
-    position: absolute;
-    cursor:pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-
-    border-radius: 40px;
-    transition: .4s;
-   
-}
-.theme_pill:hover{
-    box-shadow: 0 0 5px #ffffff;
-    border-radius: 40px;
-}
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 50px;
-    width: 50px;
-    left: 4px;
-    bottom: 3px;
-    border-radius: 50%;
-    background-image: url(Sources/sun.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 35px;
-    background-color: var(--Mint);
-
-    transition: .4s;
-}
-input:checked + .slider {
-    background-color: rgba(217,217,217,0.2);
-    border-radius: 40px;
-}
-  
-input:focus + .slider {
-   
-    border-radius: 40px;
-    
-}
-  
-input:checked + .slider:before {
-    transform: translateX(120%);
-    background-image: url(Sources/moon.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 35px;
-}
-.slider.round {
-    border-radius: 40px;
-}
-.slider.round:before {
-    border-radius: 40px;
-}
-.theme_pill{
-    display: inline-block;
-    position: relative;
-    margin-top: 15px;
-    width: 50px;
-    height: 30%;
-    padding: 15px 35px;
-
-}
 .contact_pill{
-    margin-top: 15px;
-    height: 30%;
-    width: 100px;
-    padding: 15px 30px;
+    /* Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Layout */
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 50px;
+    width: auto;
+
+    /* Style */
     border-radius: 40px;
-    border: 1px solid #81859D;
-    background:  var(--Mint);
     box-shadow: 0px 0px 20px 0px var(--Mint);
-    
-    font-size: 18px;
-    font-weight: 700;
+    outline: 3px solid var(--Mint);
+    font-size: 20px;
     text-wrap:nowrap;
     line-height: 30px;
+    color: white;
 }
+
 .contact_pill:hover{
-    outline: 3px solid white;
+    background:  var(--Mint);
+    color: black;
+    font-weight: 600;
 }
 .button_down{
     cursor: pointer;
@@ -261,6 +191,7 @@ input:checked + .slider:before {
 }
 .button_down:hover{
     border: 3px solid white;
+    box-shadow: 0px 0px 5px 0px white;
 }
 
 .arrow{
