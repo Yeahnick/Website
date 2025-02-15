@@ -45,6 +45,8 @@
     box-shadow: 0 0 5px var(--ACCENT);
     background: #323D48;
     
+    transition: transform 0.3s ease-in-out;
+    will-change: transform;
 }
 .carousel_box:hover{
     box-shadow: 0 0 10px white;
