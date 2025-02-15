@@ -1,14 +1,16 @@
 .thumbnail_Container{
     position: relative;
-    width: 50%;
+ 
     height: 150px;
     display: flex;
     margin: auto;
     top: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border-radius: 10px;
+ 
 }
     .thumbnail_Container::before {
     content: "";
@@ -31,7 +33,6 @@
   }
 
 .project_container{
-  margin-top: 200px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -59,7 +60,7 @@
   color: rgb(254, 254, 254);
 }
 .project_Video{
-  margin-top: 125px;
+  margin-top: 8%;
 }
 .project_Video video{
   width: 650px;

@@ -1,8 +1,7 @@
 
-
 .thumbnail_Container{
     position: relative;
-    width: 100%;
+    width: auto;
     height: 500px;
     display: flex;
     margin: auto;
@@ -10,7 +9,6 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border-radius: 5px;
 }
     .thumbnail_Container::before {
     content: "";
@@ -36,7 +34,6 @@
   }
 
 .project_container{
-  margin-top: 30px;
   display: flex;
   flex-direction: row;
   width: 100%;

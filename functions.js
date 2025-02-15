@@ -1,7 +1,3 @@
-function scrolldown(){
-     window.scrollBy(0,800)
-}
-
 function sendemail(){
     document.getElementById("fname").style.border = ""
     document.getElementById("text").style.border = ""
