@@ -54,19 +54,19 @@
     border-radius: 40px;
     border: 1px solid var(--Stroke, #81859D);
     background: var(--Mint);
-    box-shadow: 0px 0px 30px 0px var(--Mint);
+    box-shadow: 0px 0px 20px 0px var(--Mint);
 
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
     line-height: 60px;
     color: black;
-    font-weight: 700;
     text-decoration: none;
+    cursor: pointer;
 }
 .form_send:hover{
-
-   outline: 2px solid white;
+    box-shadow: 0px 0px 20px 0px white;
+   border: 2px solid white;
 }
 .form_social_container{
     display: flex;

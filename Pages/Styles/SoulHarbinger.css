@@ -20,7 +20,7 @@
     background: 
     linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 255, 255, 0)),
     var(--thumbnail-bg) center center / cover no-repeat ;
-    filter:blur(3px) grayscale(90%);
+    filter:blur(3px);
     
     transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
     will-change: transform;

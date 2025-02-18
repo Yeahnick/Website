@@ -8,7 +8,6 @@
     padding-bottom: 5%;
     margin-right: 7%;
     overflow-x:scroll;
-
 }
 .carousel_container::-webkit-scrollbar-track {
     border: 1px solid #000;

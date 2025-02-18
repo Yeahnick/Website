@@ -20,6 +20,7 @@
 </head>
 
 <body>
+
         <div class="background_img">
         </div>     
     </div>
@@ -28,14 +29,13 @@
            Yanick Vigneault
         </div>
         <div class="top_pill">
-            <a class="pages"href="#/">About Me</a>
-            <a class="pages" href="#/">My Skills</a>
-            <a class="pages" href="#Projects">Projects</a>
+            <a class="pages">About Me</a>
+            <a class="pages" onclick="ScrollTo('Skills')">My Skills</a>
+            <a class="pages" onclick="ScrollTo('Projects')">Projects</a>
         </div>
         <div class="contact_pill">
-            <a href="#email_form">Contact Me</a>
-        </div>
-            
+            <a onclick="ScrollTo('email_form')">Contact Me!</a>
+
     </nav>
     <div class="header">
         <p class="message_code"></p>
@@ -44,12 +44,12 @@
         <p class="font_Quote">“Where imagination becomes reality and players embark on journeys we've woven in 
             <span style="color: plum;">lines</span> of 
             <span style="color: plum;">logic</span> and 
-            <span style="color:lightsalmon">pixels</span> of 
-            <span style="color: lightsalmon">passion</span>."<br><i class="note">-chatgpt</i></p>
+            <span style="color:var(--Mint)">pixels</span> of 
+            <span style="color: var(--Mint)">passion</span>."<br><i class="note">-chatgpt</i></p>
        
     </div>
     <div style="display:flex; justify-content: center;">
-        <button class="button_down" onclick="window.location.href='#Projects';"><i class="arrow"></i></button>
+        <button class="button_down" onclick="ScrollTo('Projects')"><i class="arrow"></i></button>
     </div>
     <div class="sub_Header">
         <img src="/Sources/folder.png" style="height: 60px; width: auto; padding-right: 20px; align-self: center;">
@@ -57,7 +57,7 @@
     </div>
     <div class="carousel_container" >      
         <div class="carousel_box" onclick="location.href = '/Pages/SoulHarbinger.html'">
-            <img class="carousel_img" src="/SourcesWeb/Soul/UnityGame1.PNG">
+            <img class="carousel_img" src="/SourcesWeb/Soul/Graveyard.PNG">
             <p class="carousel_title">Soul Harbinger</p>
             <p class="carousel_desc">An adventure RPG following a necromancer cursed by his own creation.</p>
             <div class="carousel_icon_container">
@@ -136,13 +136,14 @@
         </div>
     </div>
     
-    <form action="Email_Form.php" method="post">
+    <form >
         <div class="form_container" id="email_form">
             <p class="form_title">LET'S TALK!</p>
             <input type="text" id="fname" name="fname" placeholder="Enter your name or company">
             <input type="email" id="email" name="email" placeholder="Enter your email">
             <textarea type="text" id="text" name="text" placeholder="Write your message here..."></textarea>
-            <button type="submit" class="form_send" id="email_send" onclick="sendemail()" href="#/">Send</button>
+
+            <button type="submit" class="form_send" id="email_send" onclick="sendemail()">Send</button>
             <div class="form_social_container">
                 <div><a href="https://www.linkedin.com/in/yanick-vigneault-628aa9237/" target="_blank">
                     <img class="form_icon" src="/Sources/link.png" >
