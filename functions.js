@@ -38,3 +38,25 @@ function verifyFormat(){
 function ScrollTo(id){
     document.getElementById(`${id}`).scrollIntoView({behavior: "smooth"});
 }
+
+
+const colors = ['#C3E1AC', '#94CAD2', '#DDA0DD'];
+
+function getRandomColor() {
+    const randomIndex = Math.floor(Math.random() * colors.length);
+    return colors[randomIndex];
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.carousel_box');
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            
+            this.style.outline = `2px solid ${getRandomColor()}`;
+            
+        });
+        card.addEventListener('mouseleave', function() {
+            this.style.outline = '';
+        });
+    });
+});

@@ -7,6 +7,7 @@
     padding-bottom: 3%;
 }
 .form_title{
+    pointer-events: none;
     color: #FFF;
     text-align: center;
     font-size: 89px;

@@ -17,35 +17,45 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="name" onclick="location.href='/index.html'" style="cursor: pointer;">
-           <span >Yanick Vigneault</span> 
+        <div class="name">
+           Yanick Vigneault
+        </div>                   
+
+        <div class="nav_right"> 
+            <a class="about_pill" href="/Pages/About.html">About Me</a>
+            <a class="contact_pill" onclick="ScrollTo('email_form')">Contact Me!</a>
         </div>
-        <div class="top_pill">
-            <a class="pages"href="#/">About Me</a>
-            <a class="pages" href="#/">My Skills</a>
-            <a class="pages" href="#/">Projects</a>
-        </div>
-            <a href="#/" class="contact_pill" >Contact Me</a>
     </nav>
 
     <div id="main">
 
-    <div class="thumbnail_Container" style="--thumbnail-bg: url('/SourcesWeb/Soul/UnityGame1.PNG');">     
-        <div class="image_Title" id="Skills">Soul Harbinger</div>
-    </div>
+        <div class="thumbnail_Container" style="--thumbnail-bg: url('/SourcesWeb/Soul/UnityGame1.PNG');" onclick="reveal('test')">     
+            <div class="image_Title" >Soul Harbinger</div>
+        </div>
 
-    <div class="thumbnail_Container" style="--thumbnail-bg: url('/SourcesWeb/Soul/UnityGame.png');">     
-        <div class="image_Title_sub" id="Skills">Gameplay</div>
-    </div>
-    
-    <div class="thumbnail_Container" style="--thumbnail-bg: url('/SourcesWeb/Soul/Bridge.PNG');">    
-        <div class="image_Title_sub" id="Skills">Models/Textures</div>
-    </div>
-    <div class="thumbnail_Container" style="--thumbnail-bg: url('/SourcesWeb/Soul/Tavern.PNG');">    
-        <div class="image_Title_sub" id="Skills">Music/Sounds</div>
-    </div>
+        <div class="thumbnail_Container" style="--thumbnail-bg: url('/SourcesWeb/Soul/UnityGame.png');">     
+            <div class="image_Title_sub">Gameplay</div>
+        </div>
+        
+        <div class="thumbnail_Container" style="--thumbnail-bg: url('/SourcesWeb/Soul/Bridge.PNG');">    
+            <div class="image_Title_sub" >Models/Textures</div>
+        </div>
+        <div class="thumbnail_Container" style="--thumbnail-bg: url('/SourcesWeb/Soul/Tavern.PNG');">    
+            <div class="image_Title_sub" >Music/Sounds</div>
+        </div>
 
     </div>
+    <div style="display: none;" id="test" class="block_one">
+        <div>
+            Test
+        </div>
+    </div>
+    <script>
 
+        function reveal(id){
+            document.getElementById('main').style.display = "none";
+            document.getElementById(`${id}`).style.display = "block";
+        }
+    </script>
 </body>
 </html>

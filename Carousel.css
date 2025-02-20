@@ -1,62 +1,36 @@
 .carousel_container{
-    display: flex;
-    gap: 100px;
-    
-    margin-left: 7%;
-    padding-top: 5px;
-    padding-left: 5%;
-    padding-bottom: 5%;
-    margin-right: 7%;
-    overflow-x:scroll;
-}
-.carousel_container::-webkit-scrollbar-track {
-    border: 1px solid #000;
-    border-radius: 10px ;
-    background-color: #404040;
-  }
-  .carousel_container::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  .carousel_container::-webkit-scrollbar-thumb {
-    
-    border-radius: 10px;
-    background-color: #94CAD2;
-    border: 1px solid #000;
-}
-.carousel_container::-webkit-scrollbar-thumb:hover {
-    
-    border-radius: 10px;
-    background-color: #94CAD2;
-    border: 1px solid #ffffff;
-    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    gap: 5%;
+    width: 80%;
+    margin: 0 auto;
 }
   
 .carousel_box{
     margin-top: 3%;
     display: flex;
     flex-direction: column;
-    height: 450px;
-    width: 400px;
-    border-radius: 14px;
+
+    width: 40vh;
+    height: 40vh;
+    border-radius: 15px;
 
     cursor: pointer;
-    box-shadow: 0 0 5px var(--ACCENT);
-    background: #323D48;
+    box-shadow: 10px 10px 5px rgba(0,0,0, 0.3);
+    background: rgba(50, 60, 70, 0.3);
     
     transition: transform 0.3s ease-in-out;
     will-change: transform;
 }
 .carousel_box:hover{
-    box-shadow: 0 0 10px white;
+   
     transform: translateY(-5%);
 }
 .carousel_img{
-    display: block;
-    min-height: 230px;
-    max-height: 230px;
-    object-fit: fill;
-    border-radius: 14px;
+    height: 50%;
+    object-fit:fill;
+    border-radius: 10px;
     overflow: hidden;
 }
 .carousel_icons{  
@@ -73,8 +47,9 @@
     margin-bottom: 0;
 }
 .carousel_desc{
-    width: 350px;
-    margin-left: 5%;
+
+    padding-left: 5%;
+    padding-right: 5%;
     margin-bottom: 10%;
     color: #FEFEFF;
     font-size: 16px;

@@ -27,22 +27,19 @@
     <nav class="navbar">
         <div class="name">
            Yanick Vigneault
-        </div>
-        <div class="top_pill">
-            <a class="pages">About Me</a>
-            <a class="pages" onclick="ScrollTo('Skills')">My Skills</a>
-            <a class="pages" onclick="ScrollTo('Projects')">Projects</a>
-        </div>
-        <div class="contact_pill">
-            <a onclick="ScrollTo('email_form')">Contact Me!</a>
+        </div>                   
 
+        <div class="nav_right"> 
+            <a class="about_pill" href="/Pages/About.html">About Me!</a>
+            <a class="contact_pill" onclick="ScrollTo('email_form')">Contact Me!</a>
+        </div>
     </nav>
     <div class="header">
         <p class="message_code"></p>
         <p class="font_header">Hi,<br class="br">I'M YANICK </p>
         <p class="font_subHead">VIDEO GAME DEVELOPER <span style="color: gray;">/</span> SOFTWARE PROGRAMMER<br><i class="note">Fr/Eng</i></p>
         <p class="font_Quote">“Where imagination becomes reality and players embark on journeys we've woven in 
-            <span style="color: plum;">lines</span> of 
+            <span style="color: #dda0dd;">lines</span> of 
             <span style="color: plum;">logic</span> and 
             <span style="color:var(--Mint)">pixels</span> of 
             <span style="color: var(--Mint)">passion</span>."<br><i class="note">-chatgpt</i></p>
@@ -53,12 +50,11 @@
     </div>
     <div class="sub_Header">
         <img src="/Sources/folder.png" style="height: 60px; width: auto; padding-right: 20px; align-self: center;">
-        <p class="font_skills" id="Projects">MY WORK</p>
+        <p class="font_skills" id="Projects">PROJECTS</p>
     </div>
     <div class="carousel_container" >      
         <div class="carousel_box" onclick="location.href = '/Pages/SoulHarbinger.html'">
             <img class="carousel_img" src="/SourcesWeb/Soul/Graveyard.PNG">
-            <p class="carousel_title">Soul Harbinger</p>
             <p class="carousel_desc">An adventure RPG following a necromancer cursed by his own creation.</p>
             <div class="carousel_icon_container">
                 <img class="carousel_icons" src="/Sources/unitylogo.png">
@@ -68,8 +64,7 @@
             </div>  
         </div>
         <div class="carousel_box">
-            <img class="carousel_img" src="/SourcesWeb/UnityGame2.PNG">
-            <p class="carousel_title">Scuffed Dodgeball</p>
+            <img class="carousel_img" src="/SourcesWeb/ScuffedDodgeBall.JPG">
             <p class="carousel_desc">My first dive into Multliplayer Networking Behaviour.</p>
             <div class="carousel_icon_container">
                 <img class="carousel_icons" src="/Sources/unitylogo.png">
@@ -79,7 +74,6 @@
 
         <div class="carousel_box" onclick="location.href = '/Pages/discord.html'">
             <img class="carousel_img" src="/SourcesWeb/zombiecraft/botchat.PNG">
-            <p class="carousel_title">Discord Bot</p>
             <p class="carousel_desc">Developed a Database system and Discord Bot to link with Minecraft</p>
             <div class="carousel_icon_container">
                 <img class="carousel_icons" src="/Sources/kotlin.png">
@@ -90,7 +84,6 @@
         </div>
         <div class="carousel_box" onclick="location.href = '/Pages/Slot.html'">
             <img class="carousel_img" src="/SourcesWeb/Slot/slotmachine.PNG">
-            <p class="carousel_title">Slot Machine</p>
             <p class="carousel_desc">School project with Android Studio. A functional and adicting gambling machine!</p>
             <div class="carousel_icon_container">
                 <img class="carousel_icons" src="/Sources/kotlin.png">
@@ -99,15 +92,13 @@
         </div>
         <div class="carousel_box" onclick="location.href = '/Pages/WaW.html'">
             <img class="carousel_img" src="/SourcesWeb/WaW/Zombies.jpg">
-            <p class="carousel_title">Zombies Map</p>
             <p class="carousel_desc">Used WaW's Radiant mod tool to create my first Zombie map.</p>
             <div class="carousel_icon_container">
                 <img class="carousel_icons" src="/Sources/waw.png">
             </div>
         </div>
         <div class="carousel_box" onclick="location.href = '/Pages/CSGO.html'">
-            <img class="carousel_img" src="/SourcesWeb/CSGO/SSRush2.PNG">
-            <p class="carousel_title">CSGO Map</p>
+            <img class="carousel_img" src="/SourcesWeb/CSGO/SSOB.PNG">
             <p class="carousel_desc">Used Source's Hammer SDK tool to create some custom maps.</p>
             <div class="carousel_icon_container">
                 <img class="carousel_icons" src="/Sources/csgo.png">
@@ -118,7 +109,7 @@
     
     <div class="sub_Header" >
         <img src="/Sources/gear.png" style="height: 60px; width: auto; padding-right: 20px; align-self: center;">
-        <p class="font_skills" id="Skills">MY SKILLS</p>
+        <p class="font_skills" id="Skills">SKILLS</p>
     </div>
   
     <div class="skill_container">
@@ -159,7 +150,9 @@
         </div>
     </form>
     <footer>
-        
+        <p style="text-align: center; font-size: 20px; color:  #666;">
+            Developed by Yanick Vigneault-Chiasson &copy; 2025 | Hosted by Cloudflare
+        </p>
     </footer>
 </body>
 

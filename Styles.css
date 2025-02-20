@@ -11,6 +11,7 @@ body{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+
 }
 *{
     box-sizing: border-box;
@@ -19,7 +20,9 @@ a{
     color: inherit;
     text-decoration: none;
 }
-
+::-webkit-scrollbar{
+    display: none;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -35,29 +38,66 @@ a{
     rgba(0, 0, 0, 0.1)
     linear-gradient(to bottom, rgba(0, 0, 0,0.6), rgba(255, 255, 255,0));
 }
-.language{
-    cursor: pointer;
+.nav_right{
     display: flex;
-    flex-direction: row;
-    line-height: 50px;
-    gap: 3px;
-    p:first-child{
-        color: var(--Mint);
-    }
+    padding-right: 3%;
+}
+.about_pill{
+   /* Flex */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   /* Layout */
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-right: 5%;
+   height: 50px;
+   width: auto;
+   /* Style */
+   border-radius: 40px;
+   box-shadow: 0px 0px 20px 0px var(--ACCENT);
+   border: 3px solid var(--ACCENT);
+   font-size: 20px;
+   text-wrap:nowrap;
+   line-height: 30px;
+   color: white;
+   cursor: pointer;
     
-    p:nth-child(2){
-        color: var(--Mint);
-    }
-    p:nth-child(3){
-        color: black;
-    }
-    p:nth-child(3):hover{
-        color: var(--ACCENT);
-    }
-    
+}
+.about_pill:hover{
+    background:  var(--ACCENT);
+    color: black;
+}
+.contact_pill{
+    /* Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Layout */
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 50px;
+    width: auto;
+    /* Style */
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px 0px var(--Mint);
+    border: 3px solid var(--Mint);
+    font-size: 20px;
+    text-wrap:nowrap;
+    line-height: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact_pill:hover{
+    background:  var(--Mint);
+    color: black;
 }
 
 .header{
+    pointer-events: none;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -116,6 +156,7 @@ a{
 }
 .name{  
     /* Style */
+    pointer-events: none;
     color: #FEFEFF;
     font-size: 36px;
     font-weight: 600;
@@ -138,57 +179,7 @@ a{
     height: 838px;
 
 }
-.top_pill{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
 
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
-    height: 60px;
-    border-radius: 40px;
-    background: rgba(217,217,217,.2);
-    color: #FEFEFF;
-    font-size: 20px;
-    
-}
-.pages{  
-    margin-top: 20px;
-    cursor: pointer;
-}
-.pages:hover{
-    color: var(--ACCENT);
-    transform: scale(110%);
-}
-
-.contact_pill{
-    /* Flex */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Layout */
-    padding-left: 1%;
-    padding-right: 1%;
-    height: 50px;
-    width: auto;
-
-    /* Style */
-    border-radius: 40px;
-    box-shadow: 0px 0px 20px 0px var(--Mint);
-    border: 3px solid var(--Mint);
-    font-size: 20px;
-    text-wrap:nowrap;
-    line-height: 30px;
-    color: white;
-    cursor: pointer;
-}
-
-.contact_pill:hover{
-    background:  var(--Mint);
-    color: black;
-}
 .button_down{
     cursor: pointer;
     box-shadow: 0px 0px 10px 0px white;
@@ -202,7 +193,7 @@ a{
 }
 .button_down:hover{
     border: 3px solid white;
-    box-shadow: 0px 0px 20px 0px var(--Mint);
+    box-shadow: 0px 0px 20px 0px plum;
 }
 
 .arrow{
@@ -215,6 +206,7 @@ a{
 }
 
 .sub_Header{
+    pointer-events: none;
     display: flex; 
     flex-direction: row; 
     justify-content: center;
