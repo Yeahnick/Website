@@ -25,7 +25,7 @@
 
 .image_Title {
     position: relative;
-      color: rgb(157, 37, 37);
+      color: seagreen;
       font-family: 'Grechen Fuemen', sans-serif;
       font-size: 100px;
       font-weight: bold;
@@ -38,13 +38,13 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
-  background: rgb(31, 32, 32);
+  background: rgb(19, 24, 19);
   padding-bottom: 30px;
 }
 .project_Title{ 
   margin-left: 50px;
   display: flex;
-  color: rgb(157, 37, 37);
+  color: white;
   font-family: 'Grechen Fuemen', sans-serif;
   font-size: 50px;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
@@ -60,8 +60,8 @@
   font-size: 22px;
   line-height: 1.8;
   font-weight: 400;
-  text-shadow: 3px 3px 5px #4a2020;
-  color: rgb(176, 155, 155);
+  text-shadow: 3px 3px 5px #000000;
+  color: rgb(183, 183, 183);
 }
 .project_Video{
   margin-top: 125px;
@@ -86,14 +86,14 @@
  margin-top: 100px;
 }
 .project_Image img{
-    width: 700px;
-    height: auto;
-    box-shadow: 0 0 5px #521010;
+    width: auto;
+    height: 75%;
+    box-shadow: 0 0 5px #ffffff;
 }
 .project_Title_2{
     
 display: flex;
-color: rgb(157, 37, 37);
+color: seagreen;
 font-family: 'Grechen Fuemen', sans-serif;
 text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
 font-size: 50px;

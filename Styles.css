@@ -32,7 +32,6 @@ a{
     width: 100%;
     top: 0;
     padding: 1% 1% 1% 1%;
-    border-radius: 10px;
     
     background:  
     rgba(0, 0, 0, 0.1)
@@ -56,7 +55,7 @@ a{
    width: auto;
    /* Style */
    border-radius: 40px;
-   box-shadow: 0px 0px 20px 0px var(--ACCENT);
+   box-shadow: 0px 0px 10px 0px var(--ACCENT);
    border: 3px solid var(--ACCENT);
    font-size: 20px;
    text-wrap:nowrap;
@@ -82,7 +81,7 @@ a{
     width: auto;
     /* Style */
     border-radius: 40px;
-    box-shadow: 0px 0px 20px 0px var(--Mint);
+    box-shadow: 0px 0px 10px 0px var(--Mint);
     border: 3px solid var(--Mint);
     font-size: 20px;
     text-wrap:nowrap;
@@ -156,14 +155,14 @@ a{
 }
 .name{  
     /* Style */
-    pointer-events: none;
+    cursor: pointer;
     color: #FEFEFF;
     font-size: 36px;
     font-weight: 600;
 }
 .background_img{
     width: auto;
-    height: 90vh;
+    height: 90dvh;
     margin-left: 30%;
     background:
     linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 75%),

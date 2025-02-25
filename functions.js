@@ -3,7 +3,7 @@ function sendemail(){
     document.getElementById("text").style.border = ""
     document.getElementById("email").style.border = ""
     if(verifyFormat()){
-        alert("Email has been sent, Thank you for reaching out!")
+        alert("This feature is not yet implemented!")
     }else{
         alert("Invalid field(s).")
     }
@@ -60,3 +60,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+function checkScreenSize() {
+if (window.innerWidth < 768) { 
+    alert("Ops! I have not not yet optimize this website for mobile devices.");
+}
+}
+
+window.onload = checkScreenSize;
+

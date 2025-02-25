@@ -7,7 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../Styles.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../Media.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../Projects_Template.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./Styles/Csgo.css'>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
 <body>
 
     <nav class="navbar">
-        <div class="name">
+        <div class="name" onclick="location.href = '/index.html'">
            Yanick Vigneault
         </div>                   
 
@@ -29,7 +29,7 @@
         </div>
     </nav>
         
-    <div class="thumbnail_Container" style="--thumbnail-bg: url('../SourcesWeb/CSGO/SSOB.PNG');">     
+    <div class="thumbnail_Container" style="--thumbnail-bg: url('/SourcesWeb/CSGO/SSOB.PNG');">     
 
         <div class="image_Title" id="Skills" >CSGO's SDK</div>
         
@@ -44,48 +44,39 @@
                 The tactical gameplay and strategic depth of the game inspired my interest in level design. 
                 As I spent more time playing, I became fascinated with how maps were created and how different environments shaped gameplay. 
                  When I discovered that <i style="color: var(--ACCENT);">Source</i> had tools to create custom maps, 
-                 I couldn’t wait to dive in. At around 14, I started exploring the map editor; <a href="https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor" target="_blank"><i style="color: plum;">Hammer</i></a>, experimenting with props and rendering. 
+                 I couldn’t wait to dive in. In highschool, I started exploring the map editor; <a href="https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor" target="_blank"><i style="color: plum;">Hammer</i></a>, experimenting with props and rendering. 
                  It became my first step into level design, and I’ve loved it ever since.</p>         
         </div>
         </div>      
         <div class="project_Video">
-            <video controls>
-                <source src="../SourcesWeb/CSGO/RushVid.mp4" type="video/mp4">
-            </video>
+            <iframe           
+                src="https://www.youtube.com/embed/ggncMpyWXqU" 
+                allowfullscreen>
+            </iframe>
         </div>
     </div>
     <div class="project_container_2">        
             
-            <div class="project_Video">
-            
-                <video controls id="myVideo">  
-                    <source src="../SourcesWeb/CSGO/FlowVid.mp4" type="video/mp4">
-                </video>
-                <script>
-                    var video = document.getElementById('myVideo');
-                    video.currentTime = 8;  
-                  </script>
-            </div>
-            <div class="project_Title_2">
+        <div class="project_Video">
+            <iframe           
+                src="https://www.youtube.com/embed/9tHuQuQeuyU" 
+                allowfullscreen> 
+            </iframe>
+        </div>
+        <div class="project_Title_2">
             <p>Using Hammer!</p>
             
             <div class="project_Paragraph">    
-            <p>Using the <i style="color: plum;">Hammer SDK</i> from CS:GO was an incredible learning experience that helped forged my understanding of level design.
+                <p>Using the <i style="color: plum;">Hammer SDK</i> from CS:GO was an incredible learning experience that helped forged my understanding of level design.
                 I created two maps, each with distinct goals and design philosophies. 
                 The first was a competitive 2v2 Wingman map, where I focused on balancing distances and positioning to accommodate different weapons and playstyles.
                 My second map took a more arcade-style approach, designed for free-for-all or 1v1 gameplay. 
                 It featured a more symmetrical layout with barricades and secret passages, promoting fun and balanced gameplay while sneaky exploration. 
                 These projects taught me the importance of layout, flow, and player engagement in level design.</p>         
-        </div>
-        </div>      
-
-        
-        </div>     
-    </div>
-    <div class="project_container_2">      
-            <div class="project_Image">
-                <img src="../SourcesWeb/CSGO/Hammer_screen.jpg">       
             </div>
-        </div>
+        </div>                     
+         
+    </div>
+    
 </body>
 </html>
