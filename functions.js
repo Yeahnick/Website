@@ -69,3 +69,6 @@ if (window.innerWidth < 768) {
 
 window.onload = checkScreenSize;
 
+function GoBack() {
+    window.history.back();
+}

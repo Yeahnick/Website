@@ -160,6 +160,9 @@ a{
     font-size: 36px;
     font-weight: 600;
 }
+.name:hover{
+   text-shadow: 0 0 5px wheat;
+}
 .background_img{
     width: auto;
     height: 90dvh;

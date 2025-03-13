@@ -8,17 +8,7 @@
     justify-items: center;
     padding-bottom: 5%;
 }
- .ribbon{
-    position: absolute;
-    top: 5%;    
-    color: white;
-    text-shadow: 0 0 2px black;
-    padding: 2% 14%;
-    font-weight: bold;
-    font-size: 14px;
-    transform: rotate(45deg);
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
- } 
+
  .date{
     position: absolute;  
     
@@ -33,20 +23,6 @@
     left: 50%;
     transform: translate(-50%, -50%); 
  }
-
-.wip{
-    background: var(--ACCENT);
-    left: 70%;
-
-}
-.done{
-    background: var(--Mint);
-    left: 70%;
-}
-.halt{
-    background: plum;
-    left: 65%;
-}
 
 
 .carousel_box{

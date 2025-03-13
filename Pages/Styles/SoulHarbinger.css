@@ -1,7 +1,7 @@
 
 .thumbnail_Container{
     position: relative;
-    width: 100%;
+    width: 60%;
     height: 25vh;
     display: flex;
     margin: auto;
@@ -9,7 +9,7 @@
     justify-content: center;
     overflow: hidden;
     transition: width 0.5s ease-in-out;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 5px white;
 }
 
 .thumbnail_Container::before {
@@ -36,20 +36,12 @@
 .image_Title {
     position: relative;
       color: var(--Soul);
-      margin-top: 5%;
-      font-size: 100px;
+      font-size: 80px;
       font-weight: bold;
       text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
       pointer-events: none;
-  }
-  .image_Title_sub {
-    position: relative;
-      color: var(--Soul);
-      font-size: 80px;
-      font-weight: bold;
-      text-shadow: 3px 3px 5px rgb(0, 0, 0);
-      pointer-events: none;
-  }
+}
+
 
 /***************************Header 1***********************************/
 
