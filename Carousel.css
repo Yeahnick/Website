@@ -49,7 +49,7 @@
 .carousel_img{
     height: 50%;
     object-fit:fill;
-    border-radius: 10px;
+    border-radius:10px 10px 0px 0px;
     overflow: hidden;
 }
 .carousel_icons{  

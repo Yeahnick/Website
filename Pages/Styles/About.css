@@ -1,0 +1,5 @@
+.background{
+    height: 100vh;
+    background-color: #262829;
+    background: linear-gradient(to top, var(--ACCENT) 100%);
+}

@@ -1,18 +1,16 @@
 
 .thumbnail_Container{
     position: relative;
-    width: 60%;
-    height: 25vh;
+    width: auto;
+    height: 30vh;
     display: flex;
     margin: auto;
+    z-index: -1;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    transition: width 0.5s ease-in-out;
-    box-shadow: 0 0 5px white;
 }
-
-.thumbnail_Container::before {
+    .thumbnail_Container::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -20,20 +18,12 @@
     background: 
     linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 255, 255, 0)),
     var(--thumbnail-bg) center center / cover no-repeat ;
-    filter:blur(3px);
-    
-    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
-    will-change: transform;
+
+    filter:blur(3px) grayscale(40%);
+    z-index: 0;
 }
 
-.thumbnail_Container:hover::before {
-    filter: none;
-    cursor: pointer;
-    transform: scale(1.5);
-}
-
-
-.image_Title {
+.thumbnail_Title {
     position: relative;
       color: var(--Soul);
       font-size: 80px;
