@@ -1,7 +1,7 @@
 .carousel_container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-template-rows: repeat(2, auto); /* 2 rows */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto); 
     gap: 5%;
     width: 80%;
     margin: 0 auto;

@@ -2,6 +2,7 @@
     --LIGHT-GRAY: #D9D9D9;
     --Mint: #C3E1AC;
     --ACCENT: #94CAD2;
+
     --Soul: #5fe4c3;
 }
 
@@ -30,7 +31,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    overflow: hidden;
     /* Layout */
     margin-top: 2%;
     padding-left: 5%;
@@ -44,6 +45,8 @@ a{
     line-height: 30px;
     color: white;
     cursor: pointer;
+    transition: color 0.3s ease-in-out;
+
 }
 .link_pill:nth-of-type(1){
     border: 3px solid var(--ACCENT);
@@ -55,9 +58,10 @@ a{
     box-shadow: 0 0 5px var(--Mint);
 }
 .link_pill:nth-of-type(1):hover{
-    background:  var(--ACCENT);
+    background:  var(--ACCENT);  
     
 }
+
 .link_pill:nth-of-type(2):hover{
     background:  var(--Mint);
  

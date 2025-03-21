@@ -79,3 +79,6 @@
     width: 45px;
     height: 45px;
 }
+.form_icon:hover{
+    filter: grayscale(75%);
+}

@@ -1,5 +1,43 @@
-.background{
-    height: 100vh;
+
+.body{  
     background-color: #262829;
     background: linear-gradient(to top, var(--ACCENT) 100%);
+    
+}
+.body_container{
+    border: 2px solid white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.title{
+    width: 100%;
+    text-align: center;
+
+    color: white;
+    font-size: 80px;
+    margin-top: 5%;
+}
+.bio_container{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 10%;
+}
+.bio{
+    color: white;
+    font-size: larger;
+    line-height: 150%;
+    width: 50%;
+}
+.profile{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+.profile img{
+    height: 200%;
+    width: 100%;
+    object-fit: cover;
 }
