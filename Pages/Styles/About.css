@@ -1,8 +1,9 @@
-
-.body{  
+html{
+    margin: 0;
+    height: 100%;
+}
+body{  
     background-color: #262829;
-    background: linear-gradient(to top, var(--ACCENT) 100%);
-    
 }
 .body_container{
     border: 2px solid white;
@@ -40,4 +41,34 @@
     height: 200%;
     width: 100%;
     object-fit: cover;
+}
+
+.udemy{
+    height: 300px;
+    width: 400px;
+    border-radius: 10%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+.udemy img{
+    max-width: 100%;
+}
+.image{
+    height: 300px;
+    width: 400px;
+    border-radius: 10%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    
+}
+.image img{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+.hobby_container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
