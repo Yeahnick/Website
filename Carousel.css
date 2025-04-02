@@ -15,7 +15,7 @@
     text-shadow: 0 0 2px black;
     padding:1% 5%;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 1dvw;
 
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     top: 97%;
@@ -29,7 +29,7 @@
     text-shadow: 0 0 2px black;
     padding:1% 5%;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.7dvw;
 
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     top: 97%;
@@ -43,7 +43,7 @@
     text-shadow: 0 0 2px black;
     padding:1% 5%;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 0.8dvw;
     border-radius: 5%;
     background-color: rgba(0, 0, 0, 0.283);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
@@ -84,7 +84,7 @@
 }
 .carousel_title{
     color: #FEFEFF;
-    font-size: 21px;
+    font-size: 1dvw;
     font-weight: 600;
     margin-left: 5%;
     margin-bottom: 0;
@@ -95,7 +95,7 @@
     padding-right: 5%;
     margin-bottom: 10%;
     color: #FEFEFF;
-    font-size: 16px;
+    font-size: 0.9dvw;
     font-weight: 400;
     height: 15%;
 }

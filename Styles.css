@@ -39,7 +39,7 @@ a{
     width: 15%;
     /* Style */
     border-radius: 40px;
-    font-size: 20px; 
+    font-size: 1dvw; 
     text-wrap:nowrap;
     line-height: 175%;
     color: white;
@@ -84,25 +84,24 @@ a{
 }
 .font_header{
     color: #FFF;
-    font-size: 5rem;
+    font-size: 4dvw;
     font-weight: 600;
     margin-bottom: 0;
     margin-top: 0;
 }
 .font_subHead{
-    margin-top: 3%;  
     color: var(--ACCENT);
-    font-size: 1.5rem;
+    font-size: 1.3dvw;
     font-weight: 600;
 }
 .font_Quote{
     color: #FFF;
-    font-size: 1.5rem;
+    font-size: 1.2dvw;
     font-weight: 400;
-    width: 50%;
+    width: 60%;
 }
 .font_skills{
-    font-size: 3rem;
+    font-size: 3dvw;
     font-weight: 600;
     letter-spacing: 3px;
     color: #FEFEFF; 
@@ -110,7 +109,7 @@ a{
 }
 .font_project{
     text-align: center;
-    font-size: 3rem;
+    font-size:  3dvw;
     font-weight: 600;
     letter-spacing: 3px;
     color: #FEFEFF;
@@ -119,7 +118,8 @@ a{
 
 .note{
     color: gray;
-    font-weight: 400;
+    font-weight: 350;
+    font-size: 1dvw;
 }
 
 .background_img{
