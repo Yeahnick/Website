@@ -3,7 +3,7 @@
     --Mint: #C3E1AC;
     --ACCENT: #94CAD2;
 
-    --Soul: #5fe4c3;
+    --Soul: #84ebd4;
 }
 
 body{
@@ -30,22 +30,20 @@ a{
     /* Flex */
     display: flex;
     justify-content: center;
-    align-items: center;
-    overflow: hidden;
+
     /* Layout */
     margin-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
-    height: 50px;
-    width: 30%;
+    height: auto;
+    width: 15%;
     /* Style */
     border-radius: 40px;
-    font-size: 20px;
+    font-size: 20px; 
     text-wrap:nowrap;
-    line-height: 30px;
+    line-height: 175%;
     color: white;
     cursor: pointer;
-    transition: color 0.3s ease-in-out;
 
 }
 .link_pill:nth-of-type(1){
@@ -77,9 +75,9 @@ a{
     left: 15%;
 }
 .message_code{
-    width: 100px;
-    height: 80px;
-    margin-left: 10%;
+    width: auto;
+    height: 10%;
+    margin-left: 5%;
     margin-bottom: 0;
     background-image: url(Sources/message-programming.png);
     background-repeat: no-repeat;
@@ -92,21 +90,19 @@ a{
     margin-top: 0;
 }
 .font_subHead{
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 3%;  
     color: var(--ACCENT);
     font-size: 1.5rem;
     font-weight: 600;
 }
 .font_Quote{
-    margin-left: 5px;
     color: #FFF;
     font-size: 1.5rem;
     font-weight: 400;
-    width: 650px;
+    width: 50%;
 }
 .font_skills{
-    font-size: 60px;
+    font-size: 3rem;
     font-weight: 600;
     letter-spacing: 3px;
     color: #FEFEFF; 
@@ -114,7 +110,7 @@ a{
 }
 .font_project{
     text-align: center;
-    font-size: 56px;
+    font-size: 3rem;
     font-weight: 600;
     letter-spacing: 3px;
     color: #FEFEFF;
@@ -123,38 +119,37 @@ a{
 
 .note{
     color: gray;
-    size: 20px;
     font-weight: 400;
 }
 
 .background_img{
-    width: auto;
-    height: 90dvh;
+    height: 100dvh;
     margin-left: 30%;
     background:
     linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, 0) 80%),
     linear-gradient(to bottom, rgba(0, 0, 0, .9), rgba(0, 0, 0, 0) 25%), 
     url(Sources/BackgroundPC.jpeg);
-    background-size: cover;
+    background-size:cover;
     mix-blend-mode: lighten;
-    overflow:visible;
+    
     
 }
 .header{
     display: flex;
-    height: 838px;
+    height: 90dvh;
 
 }
 
 .button_down{
+    position: absolute;
+    
     cursor: pointer;
     box-shadow: 0 0 5px white;
     border: 3px solid white;
     width: 57px;
     height: 57px;
-    opacity: 0.9;
     border-radius: 50%;
-    top: 75%;
+    top: 90%;
     background: none;
 }
 .button_down:hover{
@@ -172,6 +167,7 @@ a{
 
 }
 
+
 .sub_Header{
     pointer-events: none;
     display: flex; 
@@ -181,8 +177,9 @@ a{
 
 .skill_container{
     display: flex;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
     padding-left: 10%;  
     padding-right: 15%;
     gap: 150px;
@@ -192,18 +189,11 @@ a{
    background: rgba(50,61,72,0.6);
 }
 
-.skill_title{
-
-    color: var(--ACCENT);
-    font-size: 20px;
-    font-weight: 600;
-    
-}
 .skill_items{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 2%;
+    
 }
 .skill_items img{
     width: auto;

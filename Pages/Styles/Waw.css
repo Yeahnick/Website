@@ -26,7 +26,7 @@
 .image_Title {
     position: relative;
       color: rgb(157, 37, 37);
-      font-family: 'Grechen Fuemen', sans-serif;
+      font-family: Papyrus, fantasy;
       font-size: 100px;
       font-weight: bold;
       text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
@@ -45,7 +45,7 @@
   margin-left: 50px;
   display: flex;
   color: rgb(157, 37, 37);
-  font-family: 'Grechen Fuemen', sans-serif;
+  font-family: Papyrus, fantasy;
   font-size: 50px;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
   font-weight: 600;
@@ -94,7 +94,7 @@
     
 display: flex;
 color: rgb(157, 37, 37);
-font-family: 'Grechen Fuemen', sans-serif;
+font-family: Papyrus, fantasy;
 text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
 font-size: 50px;
 font-weight: 600;
