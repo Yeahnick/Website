@@ -1,14 +1,14 @@
 
 .thumbnail_Container{
-    position: relative;
-    width: auto;
-    height: 30vh;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
     display: flex;
     margin: auto;
-    z-index: -1;
+   z-index: -1;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+ 
 }
     .thumbnail_Container::before {
     content: "";
@@ -18,48 +18,35 @@
     background: 
     linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 255, 255, 0)),
     var(--thumbnail-bg) center center / cover no-repeat ;
-
-    filter:blur(3px) grayscale(40%);
     z-index: 0;
 }
 
 .image_Title {
     position: relative;
-      color: seagreen;
-      font-family: 'Grechen Fuemen', sans-serif;
-      font-size: 100px;
-      font-weight: bold;
-      text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
-      z-index: 1;
+    color: seagreen;
+    font-family: 'Grechen Fuemen', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+   
   }
 
 .project_container{
+  padding-top: 3%;
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-around;
-  background: rgb(19, 24, 19);
-  padding-bottom: 30px;
-}
-.project_Title{ 
-  margin-left: 50px;
-  display: flex;
-  color: white;
-  font-family: 'Grechen Fuemen', sans-serif;
-  font-size: 50px;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
-  font-weight: 600;
-  text-align: center;
   flex-direction: column;
- 
+  width: 100%;
+  padding-bottom: 30px;
+  align-items: center;
 }
+
 .project_Paragraph{
-  width: 500px;
-  height: auto;
+  text-align: center;
+  width: 50%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
   line-height: 1.8;
-  font-weight: 400;
+  font-weight: bold;
   text-shadow: 3px 3px 5px #000000;
   color: rgb(183, 183, 183);
 }
@@ -83,23 +70,12 @@
   justify-content: space-around;
 }
 .project_Image{
- margin-top: 100px;
+  scale: .8;
+  align-content: center;
+  overflow: hidden; 
 
 }
 .project_Image img{
-    width: 65vh;
-    height: auto;
-    box-shadow: 0 0 5px #ffffff;
-}
-.project_Title_2{
-    
-display: flex;
-color: seagreen;
-font-family: 'Grechen Fuemen', sans-serif;
-text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
-font-size: 50px;
-font-weight: 600;
- text-align: center;
-flex-direction: column;
-
+ 
+  box-shadow: 0 0 5px #ffffff;
 }

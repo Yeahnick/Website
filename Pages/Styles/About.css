@@ -6,7 +6,9 @@ body{
     background-color: #262829;
 }
 .body_container{
-    border: 2px solid white;
+    border: 3px solid transparent; /* required to define border width */
+    border-image: linear-gradient(to right, var(--ACCENT), plum,var(--Mint) );
+    border-image-slice: 1; /* ensures full gradient is used */;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -23,6 +25,7 @@ body{
     justify-content: space-around;
     
     margin-top: 5%;
+    align-items: center;
 }
 .bio{
     color: white;
@@ -36,9 +39,12 @@ body{
     border-radius: 50%;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
     overflow: hidden;
+
 }
 .profile img{
+     
     height: 200%;
+    overflow: hidden;
     width: 100%;
     object-fit: cover;
 }

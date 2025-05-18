@@ -34,7 +34,7 @@
     color: white;
     justify-self: center;
     text-align: center;
-    width: 50%;
+    width: 60%;
 }
 
 /* IMAGE */
@@ -52,7 +52,7 @@
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
     overflow: hidden;
     height: 300px;
-    width: 400px;
+    width: 450px;
     object-fit: cover;
 }
 .image_wide img{ 
